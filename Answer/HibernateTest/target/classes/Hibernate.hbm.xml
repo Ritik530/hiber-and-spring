@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package = "com.hibernate.ci">
+<class name= "FriendEntity" table="user">
+<id name = "Id" type="int">
+<generator class="increment">
+</generator>
+</id>
+<property name="firstName"></property>
+<property name="lastName"></property>
+<property name="email"></property>
+<property name="phonenumber"></property>
+</class>
+</hibernate-mapping>
